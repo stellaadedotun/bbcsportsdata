@@ -1,11 +1,3 @@
- from dotenv import load_dotenv
- import os
- load_dotenv()
- # for your push_to_database.py
- conn_string = os.getenv('CONN_STRING')
- #for your push_to_blob.py
- connection_string = os.getenv('BLOB_CONN_STRING')
- 
  # Name of the GitHub Actions workflow
  name: update league data
  
